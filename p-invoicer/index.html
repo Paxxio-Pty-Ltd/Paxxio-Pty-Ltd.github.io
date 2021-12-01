@@ -16,9 +16,21 @@
                 <div class="site-header-inner">
                     <div class="brand header-brand">
                         <h1 class="m-0">
-                            <a href="#">
-								<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
-                            </a>
+							<div id="donate-button-container">
+								<div id="donate-button"></div>
+								<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+								<script>
+								PayPal.Donation.Button({
+								env:'production',
+								hosted_button_id:'BJQMGRKLPGCSY',
+								image: {
+								src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
+								alt:'Donate with PayPal button',
+								title:'PayPal - The safer, easier way to pay online!',
+								}
+								}).render('#donate-button');
+								</script>
+							</div>
                         </h1>
                     </div>
                 </div>
@@ -108,6 +120,11 @@
 					</div>
                 </div>
             </section>
+			<section>
+				<a href = #donate></a>
+				
+					
+			</section>
 			<section>
 				<a href = #contact-us></a>
 				<script type="text/javascript" src="https://form.jotform.com/jsform/213323243790046"></script>
