@@ -1,56 +1,61 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>P Invoicer</title>
-    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
-    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>P Invoicer</title>
+	<link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
+	<link rel="stylesheet" href="dist/css/style.css">
+	<script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
 </head>
+
 <body class="is-boxed has-animations">
-    <div class="body-wrap boxed-container">
-        <header class="site-header text-light">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
+	<div class="body-wrap boxed-container">
+		<header class="site-header text-light">
+			<div class="container">
+				<div class="site-header-inner">
+					<div class="brand header-brand">
+						<h1 class="m-0">
 							<div id="donate-button-container">
 								<div id="donate-button"></div>
-								<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+								<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js"
+									charset="UTF-8"></script>
 								<script>
-								PayPal.Donation.Button({
-								env:'production',
-								hosted_button_id:'BJQMGRKLPGCSY',
-								image: {
-								src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
-								alt:'Donate with PayPal button',
-								title:'PayPal - The safer, easier way to pay online!',
-								}
-								}).render('#donate-button');
+									PayPal.Donation.Button({
+										env: 'production',
+										hosted_button_id: 'BJQMGRKLPGCSY',
+										image: {
+											src: 'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
+											alt: 'Donate with PayPal button',
+											title: 'PayPal - The safer, easier way to pay online!',
+										}
+									}).render('#donate-button');
 								</script>
 							</div>
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        </header>
+						</h1>
+					</div>
+				</div>
+			</div>
+		</header>
 
-        <main>
-            <section class="hero text-center text-light">
+		<main>
+			<section class="hero text-center text-light">
 				<div class="hero-bg"></div>
 				<div class="hero-particles-container">
 					<canvas id="hero-particles"></canvas>
 				</div>
-                <div class="container-sm">
-                    <div class="hero-inner">
+				<div class="container-sm">
+					<div class="hero-inner">
 						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">P Invoicer</h1>
-	                        <p class="hero-paragraph">Create. Save. Send</p>
-	                        <div class="hero-cta">
-								<a target="blank" href="https://play.google.com/store/apps/details?id=com.paxxio.pinvoicer">
-									<img class="device-mockup" src="dist/images/google-play-badge.png" alt="iPhone Hero">
+							<h1 class="hero-title mt-0">P Invoicer</h1>
+							<p class="hero-paragraph">Create. Save. Send</p>
+							<div class="hero-cta">
+								<a target="blank"
+									href="https://play.google.com/store/apps/details?id=com.paxxio.pinvoicer">
+									<img class="device-mockup" src="dist/images/google-play-badge.png"
+										alt="iPhone Hero">
 								</a>
 							</div>
 							<div class="hero-cta">
@@ -65,56 +70,110 @@
 							</div>
 							<img class="device-mockup" src="dist/images/android-landing.png" alt="iPhone Hero">
 						</div>
-                    </div>
-                </div>
-            </section>
+					</div>
+				</div>
+			</section>
 
 			<section class="features-extended section">
-                <div class="features-extended-inner section-inner">
+				<div class="features-extended-inner section-inner">
 					<div class="features-extended-wrap">
 						<div class="container">
 							<div class="feature-extended">
 								<div class="feature-extended-image">
 									<div class="mockup-bg">
-										<img src="dist/images/iphone-feature-bg-01.svg" alt="iPhone Feature 01 illustration">
+										<img src="dist/images/iphone-feature-bg-01.svg"
+											alt="iPhone Feature 01 illustration">
 									</div>
-									<img class="device-mockup is-revealing" src="dist/images/android-invoice-create.png" alt="iPhone Feature 01">
+									<img class="device-mockup is-revealing" src="dist/images/android-invoice-create.png"
+										alt="iPhone Feature 01">
 								</div>
 								<div class="feature-extended-body is-revealing">
 									<h3 class="mt-0 mb-16">Create Amazing Invoices</h3>
-									<p class="m-0">Simple yet efficient. Add a business, client and items. Define your Taxes, add a signature. And you're golden.</p>
+									<p class="m-0">Simple yet efficient. Add a business, client and items. Define your
+										Taxes, add a signature. And you're golden.</p>
 								</div>
 							</div>
 							<div class="feature-extended">
 								<div class="feature-extended-image">
 									<div class="mockup-bg">
-										<img src="dist/images/iphone-feature-bg-02.svg" alt="iPhone Feature 02 illustration">
+										<img src="dist/images/iphone-feature-bg-02.svg"
+											alt="iPhone Feature 02 illustration">
 									</div>
-									<img class="device-mockup is-revealing" src="dist/images/android-dashboard.png" alt="iPhone Feature 02">
+									<img class="device-mockup is-revealing"
+										src="dist/images/android-receipts-create.png" alt="iPhone Feature 02">
 								</div>
 								<div class="feature-extended-body is-revealing">
-									<h3 class="mt-0 mb-16">View Your Invoice Dashboard</h3>
-									<p class="m-0">See live stats of your quarterly projections. Mark your invoices as paid. Make the magic of small businesses happen. At no Expense.</p>
+									<h3 class="mt-0 mb-16">Create Receipts</h3>
+									<p class="m-0">Mini Point of Sale in your pocket. Create receipts and share them to
+										your clients.</p>
 								</div>
 							</div>
 							<div class="feature-extended">
 								<div class="feature-extended-image">
 									<div class="mockup-bg">
-										<img src="dist/images/iphone-feature-bg-03.svg" alt="iPhone Feature 03 illustration">
+										<img src="dist/images/iphone-feature-bg-02.svg"
+											alt="iPhone Feature 02 illustration">
 									</div>
-									<img class="device-mockup is-revealing" src="dist/images/android-send-invoice.png" alt="iPhone Feature 03">
+									<img class="device-mockup is-revealing" src="dist/images/android-tutorial.png"
+										alt="iPhone Feature 02">
 								</div>
 								<div class="feature-extended-body is-revealing">
-									<h3 class="mt-0 mb-16">Generate Your PDF from a beautiful range of hand made templates.</h3>
+									<h3 class="mt-0 mb-16">Beautiful Tutorials.</h3>
+									<p class="m-0">Easy flows. Simple Steps. We will guide you the whole way.</p>
+								</div>
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-03.svg"
+											alt="iPhone Feature 03 illustration">
+									</div>
+									<img class="device-mockup is-revealing" src="dist/images/android-send-invoice.png"
+										alt="iPhone Feature 03">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Generate Your PDF from a beautiful range of hand made
+										templates.</h3>
 									<p class="m-0">Send your invoice to anyone. Free of charge!</p>
 								</div>
 							</div>
 							<div class="feature-extended">
 								<div class="feature-extended-image">
 									<div class="mockup-bg">
-										<img src="dist/images/iphone-feature-bg-04.svg" alt="iPhone Feature 04 illustration">
+										<img src="dist/images/iphone-feature-bg-03.svg"
+											alt="iPhone Feature 03 illustration">
 									</div>
-									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-04.png" alt="iPhone Feature 04">
+									<img class="device-mockup is-revealing" src="dist/images/android-reporting.png"
+										alt="iPhone Feature 03">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Top Performers. Monthly Sales Reports</h3>
+									<p class="m-0">Generate your monthly sales report. Subdivide them out via invoice or
+										receipt.</p>
+								</div>
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-04.svg"
+											alt="iPhone Feature 04 illustration">
+									</div>
+									<img class="device-mockup is-revealing" src="dist/images/android-image-share.png"
+										alt="iPhone Feature 04">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Share businesses, Items and Client Lists</h3>
+									<p class="m-0">Got a more than one man business, Share your entire profile securely and offline with QR Codes.</p>
+								</div>
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-04.svg"
+											alt="iPhone Feature 04 illustration">
+									</div>
+									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-04.png"
+										alt="iPhone Feature 04">
 								</div>
 								<div class="feature-extended-body is-revealing">
 									<h3 class="mt-0 mb-16">We are constantly adding new features to P Invoicer</h3>
@@ -123,18 +182,18 @@
 							</div>
 						</div>
 					</div>
-                </div>
-            </section>
-			<section>
-				<a href = #donate></a>
-				
-					
+				</div>
 			</section>
 			<section>
-				<a href = #contact-us></a>
+				<a href=#donate></a>
+
+
+			</section>
+			<section>
+				<a href=#contact-us></a>
 				<script type="text/javascript" src="https://form.jotform.com/jsform/213323243790046"></script>
 			</section>
-        </main>
+		</main>
 
 		<footer class="site-footer">
 			<div class="footer-particles-container">
@@ -169,7 +228,9 @@
 								<a href="https://twitter.com/paxxioptyltd">
 									<span class="screen-reader-text">Twitter</span>
 									<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-										<path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#FFF"/>
+										<path
+											d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z"
+											fill="#FFF" />
 									</svg>
 								</a>
 							</li>
@@ -178,9 +239,10 @@
 					</div>
 				</div>
 			</div>
-        </footer>
-    </div>
+		</footer>
+	</div>
 
-    <script src="dist/js/main.min.js"></script>
+	<script src="dist/js/main.min.js"></script>
 </body>
+
 </html>
